@@ -139,7 +139,7 @@ onUnmounted(() => {
                                         →
                                     </span>
                                 </a>
-                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+                                <a href="https://github.com/rfdytzz" target="_blank" rel="noopener noreferrer"
                                     class="text-sm font-medium text-gray-500 transition-colors hover:text-gray-200">
                                     GitHub
                                 </a>

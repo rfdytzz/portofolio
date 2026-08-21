@@ -3,8 +3,8 @@ import GoeyNav from '../shadcn/goeynav/GoeyNav.vue'
 
 const items = [
     { label: 'Home', href: '#' },
-    { label: 'Projects', href: '#projects' },
     { label: 'Tanya AI', href: '#ask-ai' },
+    { label: 'Projects', href: '#projects' },
 ]
 </script>
 
@@ -15,16 +15,9 @@ const items = [
                 rfk<span class="text-emerald-400">dyt</span>p
             </a>
 
-            <GoeyNav class="hidden md:block"
-                :items="items"
-                :particle-count="15"
-                :particle-distances="[90, 10]"
-                :particle-r="100"
-                :initial-active-index="0"
-                :animation-time="600"
-                :time-variance="300"
-                :colors="[1, 2, 3, 1, 2, 3, 1, 4]"
-            />
+            <GoeyNav class="hidden md:block" :items="items" :particle-count="15" :particle-distances="[90, 10]"
+                :particle-r="100" :initial-active-index="0" :animation-time="600" :time-variance="300"
+                :colors="[1, 2, 3, 1, 2, 3, 1, 4]" />
         </div>
     </nav>
 </template>

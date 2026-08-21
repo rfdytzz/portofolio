@@ -249,11 +249,13 @@ onUnmounted(() => {
                         </p>
                     </div>
 
-                    <div class="overflow-hidden rounded-2xl border border-gray-800 bg-gray-950/70 shadow-2xl shadow-emerald-950/20 backdrop-blur">
+                    <div
+                        class="overflow-hidden rounded-2xl border border-gray-800 bg-gray-950/70 shadow-2xl shadow-emerald-950/20 backdrop-blur">
                         <div class="flex items-center justify-between border-b border-gray-800 px-5 py-4">
                             <div class="flex items-center gap-3">
                                 <span class="relative flex h-3 w-3">
-                                    <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-50"></span>
+                                    <span
+                                        class="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-50"></span>
                                     <span class="relative inline-flex h-3 w-3 rounded-full bg-emerald-400"></span>
                                 </span>
                                 <div>
@@ -261,40 +263,277 @@ onUnmounted(() => {
                                     <p class="text-xs text-gray-500">Online · Portfolio assistant</p>
                                 </div>
                             </div>
-                            <span class="rounded-full border border-emerald-400/20 bg-emerald-400/10 px-3 py-1 text-xs font-medium text-emerald-300">Beta</span>
+                            <span
+                                class="rounded-full border border-emerald-400/20 bg-emerald-400/10 px-3 py-1 text-xs font-medium text-emerald-300">Beta</span>
                         </div>
 
                         <div class="space-y-6 px-5 py-8 sm:px-8">
                             <div class="flex gap-3">
-                                <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-emerald-400 font-mono text-xs font-bold text-gray-950">AI</div>
-                                <div class="max-w-2xl rounded-2xl rounded-tl-sm border border-gray-800 bg-gray-900 px-4 py-3 text-sm leading-6 text-gray-300">
-                                    Halo! Saya bisa membantu menjawab pertanyaan tentang Rafka, teknologi yang digunakan, dan project yang ada di portfolio ini.
+                                <div
+                                    class="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-emerald-400 font-mono text-xs font-bold text-gray-950">
+                                    AI</div>
+                                <div
+                                    class="max-w-2xl rounded-2xl rounded-tl-sm border border-gray-800 bg-gray-900 px-4 py-3 text-sm leading-6 text-gray-300">
+                                    Halo! Saya bisa membantu menjawab pertanyaan tentang Rafka, teknologi yang
+                                    digunakan, dan project yang ada di portfolio ini.
                                 </div>
                             </div>
 
                             <div class="flex flex-wrap gap-2 pl-11">
-                                <button type="button" class="rounded-full border border-gray-700 px-3 py-1.5 text-xs text-gray-400 transition hover:border-emerald-400/50 hover:text-emerald-300">Tech stack apa yang digunakan?</button>
-                                <button type="button" class="rounded-full border border-gray-700 px-3 py-1.5 text-xs text-gray-400 transition hover:border-emerald-400/50 hover:text-emerald-300">Project terbaru apa?</button>
-                                <button type="button" class="rounded-full border border-gray-700 px-3 py-1.5 text-xs text-gray-400 transition hover:border-emerald-400/50 hover:text-emerald-300">Bagaimana cara menghubungi?</button>
+                                <button type="button"
+                                    class="rounded-full border border-gray-700 px-3 py-1.5 text-xs text-gray-400 transition hover:border-emerald-400/50 hover:text-emerald-300">Tech
+                                    stack apa yang digunakan?</button>
+                                <button type="button"
+                                    class="rounded-full border border-gray-700 px-3 py-1.5 text-xs text-gray-400 transition hover:border-emerald-400/50 hover:text-emerald-300">Project
+                                    terbaru apa?</button>
+                                <button type="button"
+                                    class="rounded-full border border-gray-700 px-3 py-1.5 text-xs text-gray-400 transition hover:border-emerald-400/50 hover:text-emerald-300">Bagaimana
+                                    cara menghubungi?</button>
                             </div>
                         </div>
 
                         <form class="border-t border-gray-800 p-4 sm:p-5" @submit.prevent>
-                            <div class="flex items-end gap-3 rounded-xl border border-gray-700 bg-gray-900/80 p-2 transition focus-within:border-emerald-400/60 focus-within:ring-1 focus-within:ring-emerald-400/30">
-                                <textarea rows="1" aria-label="Pertanyaan untuk Rafka AI" placeholder="Tulis pertanyaanmu di sini..." class="min-h-11 flex-1 resize-none bg-transparent px-3 py-2 text-sm text-gray-200 outline-none placeholder:text-gray-600"></textarea>
-                                <button type="submit" aria-label="Kirim pertanyaan" class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-emerald-400 text-lg font-semibold text-gray-950 transition hover:bg-emerald-300 focus:outline-none focus:ring-2 focus:ring-emerald-300">↑</button>
+                            <div
+                                class="flex items-end gap-3 rounded-xl border border-gray-700 bg-gray-900/80 p-2 transition focus-within:border-emerald-400/60 focus-within:ring-1 focus-within:ring-emerald-400/30">
+                                <textarea rows="1" aria-label="Pertanyaan untuk Rafka AI"
+                                    placeholder="Tulis pertanyaanmu di sini..."
+                                    class="min-h-11 flex-1 resize-none bg-transparent px-3 py-2 text-sm text-gray-200 outline-none placeholder:text-gray-600"></textarea>
+                                <button type="submit" aria-label="Kirim pertanyaan"
+                                    class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-emerald-400 text-lg font-semibold text-gray-950 transition hover:bg-emerald-300 focus:outline-none focus:ring-2 focus:ring-emerald-300">↑</button>
                             </div>
-                            <p class="mt-3 text-center text-xs text-gray-600">AI dapat membuat kesalahan. Untuk pertanyaan penting, hubungi saya langsung.</p>
+                            <p class="mt-3 text-center text-xs text-gray-600">AI dapat membuat kesalahan. Untuk
+                                pertanyaan penting, hubungi saya langsung.</p>
                         </form>
                     </div>
                 </div>
             </section>
+
+            <section id="projects" class="border-t border-gray-900">
+                <div class="mx-auto max-w-7xl px-6 py-24 lg:px-8">
+
+                    <div class="mb-12">
+                        <p class="mb-3 text-sm uppercase tracking-[0.2em] text-emerald-400">
+                            Projects
+                        </p>
+
+                        <h2 class="text-4xl font-semibold tracking-tight text-gray-100 sm:text-5xl">
+                            Selected work.
+                        </h2>
+                    </div>
+
+                    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+
+                        <div
+                            class="overflow-hidden rounded-sm border border-gray-800 bg-gray-950 transition-colors duration-300 hover:border-gray-700">
+
+                            <div class="aspect-video overflow-hidden bg-gray-900">
+                                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1000&q=80"
+                                    alt="School Information System"
+                                    class="h-full w-full object-cover transition duration-500 hover:scale-105" />
+                            </div>
+
+                            <div class="p-5">
+                                <h3 class="text-lg font-medium text-gray-100">
+                                    School Information System
+                                </h3>
+
+                                <p class="mt-2 text-sm leading-6 text-gray-500">
+                                    Modern school information platform.
+                                </p>
+
+                                <div class="mt-5 flex gap-3 text-xs text-gray-600">
+                                    <span>Vue.js</span>
+                                    <span>Laravel</span>
+                                    <span>Tailwind</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Project 02 -->
+                        <div
+                            class="overflow-hidden rounded-sm border border-gray-800 bg-gray-950 transition-colors duration-300 hover:border-gray-700">
+
+                            <div class="aspect-video overflow-hidden bg-gray-900">
+                                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=80"
+                                    alt="School AI Chatbot"
+                                    class="h-full w-full object-cover transition duration-500 hover:scale-105" />
+                            </div>
+
+                            <div class="p-5">
+                                <h3 class="text-lg font-medium text-gray-100">
+                                    School AI Chatbot
+                                </h3>
+
+                                <p class="mt-2 text-sm leading-6 text-gray-500">
+                                    AI chatbot for school information.
+                                </p>
+
+                                <div class="mt-5 flex gap-3 text-xs text-gray-600">
+                                    <span>Vue.js</span>
+                                    <span>Laravel</span>
+                                    <span>AI</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div
+                            class="overflow-hidden rounded-sm border border-gray-800 bg-gray-950 transition-colors duration-300 hover:border-gray-700">
+
+                            <div class="aspect-video overflow-hidden bg-gray-900">
+                                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1000&q=80"
+                                    alt="FindPaw"
+                                    class="h-full w-full object-cover transition duration-500 hover:scale-105" />
+                            </div>
+
+                            <div class="p-5">
+                                <h3 class="text-lg font-medium text-gray-100">
+                                    FindPaw
+                                </h3>
+
+                                <p class="mt-2 text-sm leading-6 text-gray-500">
+                                    Simple pet marketplace interface.
+                                </p>
+
+                                <div class="mt-5 flex gap-3 text-xs text-gray-600">
+                                    <span>Vue.js</span>
+                                    <span>Tailwind</span>
+                                    <span>Pinia</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div
+                            class="overflow-hidden rounded-sm border border-gray-800 bg-gray-950 transition-colors duration-300 hover:border-gray-700">
+
+                            <div class="aspect-video overflow-hidden bg-gray-900">
+                                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1000&q=80"
+                                    alt="Admin Dashboard"
+                                    class="h-full w-full object-cover transition duration-500 hover:scale-105" />
+                            </div>
+
+                            <div class="p-5">
+                                <h3 class="text-lg font-medium text-gray-100">
+                                    Admin Dashboard
+                                </h3>
+
+                                <p class="mt-2 text-sm leading-6 text-gray-500">
+                                    Dashboard for managing users and application data.
+                                </p>
+
+                                <div class="mt-5 flex gap-3 text-xs text-gray-600">
+                                    <span>Vue.js</span>
+                                    <span>Laravel</span>
+                                    <span>Sanctum</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div
+                            class="overflow-hidden rounded-sm border border-gray-800 bg-gray-950 transition-colors duration-300 hover:border-gray-700">
+
+                            <div class="aspect-video overflow-hidden bg-gray-900">
+                                <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1000&q=80"
+                                    alt="Web Application"
+                                    class="h-full w-full object-cover transition duration-500 hover:scale-105" />
+                            </div>
+
+                            <div class="p-5">
+                                <h3 class="text-lg font-medium text-gray-100">
+                                    Web Application
+                                </h3>
+
+                                <p class="mt-2 text-sm leading-6 text-gray-500">
+                                    Full-stack web application built for learning.
+                                </p>
+
+                                <div class="mt-5 flex gap-3 text-xs text-gray-600">
+                                    <span>PHP</span>
+                                    <span>Laravel</span>
+                                    <span>MySQL</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div
+                            class="overflow-hidden rounded-sm border border-gray-800 bg-gray-950 transition-colors duration-300 hover:border-gray-700">
+
+                            <div class="aspect-video overflow-hidden bg-gray-900">
+                                <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1000&q=80"
+                                    alt="UI Exploration"
+                                    class="h-full w-full object-cover transition duration-500 hover:scale-105" />
+                            </div>
+
+                            <div class="p-5">
+                                <h3 class="text-lg font-medium text-gray-100">
+                                    UI Exploration
+                                </h3>
+
+                                <p class="mt-2 text-sm leading-6 text-gray-500">
+                                    Interface experiments focused on clean design.
+                                </p>
+
+                                <div class="mt-5 flex gap-3 text-xs text-gray-600">
+                                    <span>Vue.js</span>
+                                    <span>Tailwind</span>
+                                    <span>UI/UX</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <footer class="border-t border-gray-900">
+                <div class="mx-auto max-w-7xl px-6 py-10 lg:px-8">
+
+                    <div class="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+
+g                        <div>
+                            <a href="#" class="text-3xl font-bold text-white">
+                                rfk<span class="text-emerald-400">dyt</span>p
+                            </a>
+
+
+                            <p class="mt-1 text-sm text-gray-600">
+                                FullStack Developer & Lifelong Learner.
+                            </p>
+                        </div>
+
+                        <!-- Social -->
+                        <div class="flex items-center gap-5 text-sm text-gray-500">
+                            <a href="https://github.com/rfdytzz" target="_blank" rel="noopener noreferrer"
+                                class="transition-colors hover:text-gray-200">
+                                GitHub
+                            </a>
+
+                            <a href="#projects" class="transition-colors hover:text-gray-200">
+                                Projects
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="mt-8 border-t border-gray-900 pt-6">
+                        <p class="text-xs text-gray-600">
+                            © 2026 Rafka. All rights reserved.
+                        </p>
+                    </div>
+
+                </div>
+            </footer>
         </main>
+
     </div>
 </template>
 
 <style scoped>
-
 @keyframes blink {
 
     0%,

@@ -103,7 +103,7 @@ onUnmounted(() => {
                         <div class="min-w-0">
                             <div class="mb-7 flex items-center gap-3">
                                 <p class="text-sm font-medium uppercase tracking-[0.2em] text-emerald-400">
-                                    FullStack Developer
+                                    < Learner />
                                 </p>
                             </div>
                             <div class="flex max-w-4xl items-end">
@@ -114,7 +114,7 @@ onUnmounted(() => {
                                     style="animation: blink 1s step-end infinite"></span>
                             </div>
                             <p class="mt-8 max-w-2xl text-base leading-8 text-gray-400 sm:text-lg">
-                                I'm Rafka, a developer who enjoys turning ideas
+                                I'm Rafka, a developer (aamiin) who enjoys turning ideas
                                 into simple, functional, and thoughtful interfaces.
                             </p>
                             <div class="mt-10 flex items-center gap-7">
